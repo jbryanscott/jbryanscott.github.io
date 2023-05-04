@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My New Hire Reading List From Square"
+title:  "My new hire reading list from Square"
 date:   2016-01-14 02:58:52 +0000
 categories: management
 ---
