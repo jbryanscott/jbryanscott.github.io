@@ -10,6 +10,8 @@ set -u # fail if unset variable is encountered
 script_root="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
 cd "$script_root"
 set -v # print input lines as they are read
+# END bashfile header
+
 
 cd docs
 bundle exec jekyll serve
