@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
+    echo "Fatal: Sourcing detected. Cannot source ${BASH_SOURCE[0]}."
+    return
+    exit 1
+fi
+set -e # immediately exit upon failure of any command
+set -o pipefail # any failure in a pipe results in failure of the whole command
+set -u # fail if unset variable is encountered
+script_root="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
+cd "$script_root"
+set -v # print input lines as they are read
+# END bashfile header
+
+
+# https://jekyllrb.com/docs/usage/
+cd docs
+bundle exec jekyll build

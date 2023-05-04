@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <!-- Add any necessary CSS or metadata here -->
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white; /* Optionally, set the text color to white for better visibility */
+      height: 100vh; /* Set the height of the body to the full viewport height */
+      margin: 0; /* Remove any default margin */
+    }
+
+    .ruler {
+      position: relative;
+      width: 70%;
+      margin: 20px auto;
+      height: 14px;
+    }
+    .ruler .cm, .ruler .mm {
+      position: absolute;
+      border-left: 1px solid #555;
+      height: 14px;
+      width: 10%;
+    }
+    .ruler .cm:after {
+      position: absolute;
+      bottom: -15px;
+      font: 11px/1 sans-serif;
+    }
+    .ruler .mm { height: 5px; }
+    .ruler .mm:nth-of-type(5) { height: 10px; }
+    .ruler .cm:nth-of-type(1) { left: 0%; }
+    .ruler .cm:nth-of-type(1):after { content: "0"; }
+    .ruler .cm:nth-of-type(2) { left: 10%; }
+    .ruler .cm:nth-of-type(2):after { content: "1"; }
+    .ruler .cm:nth-of-type(3) { left: 20%; }
+    .ruler .cm:nth-of-type(3):after { content: "2"; }
+    .ruler .cm:nth-of-type(4) { left: 30%; }
+    .ruler .cm:nth-of-type(4):after { content: "3"; }
+    .ruler .cm:nth-of-type(5) { left: 40%; }
+    .ruler .cm:nth-of-type(5):after { content: "4"; }
+    .ruler .cm:nth-of-type(6) { left: 50%; }
+    .ruler .cm:nth-of-type(6):after { content: "5"; }
+    .ruler .cm:nth-of-type(7) { left: 60%; }
+    .ruler .cm:nth-of-type(7):after { content: "6"; }
+    .ruler .cm:nth-of-type(8) { left: 70%; }
+    .ruler .cm:nth-of-type(8):after { content: "7"; }
+    .ruler .cm:nth-of-type(9) { left: 80%; }
+    .ruler .cm:nth-of-type(9):after { content: "8"; }
+    .ruler .cm:nth-of-type(10) { left: 90%; }
+    .ruler .cm:nth-of-type(10):after { content: "9"; }
+    .ruler .cm:nth-of-type(11) { left: 100%; }
+    .ruler .cm:nth-of-type(11):after { content: "10"; }
+    .ruler .mm:nth-of-type(1) { left: 10%; }
+    .ruler .mm:nth-of-type(2) { left: 20%; }
+    .ruler .mm:nth-of-type(3) { left: 30%; }
+    .ruler .mm:nth-of-type(4) { left: 40%; }
+    .ruler .mm:nth-of-type(5) { left: 50%; }
+    .ruler .mm:nth-of-type(6) { left: 60%; }
+    .ruler .mm:nth-of-type(7) { left: 70%; }
+    .ruler .mm:nth-of-type(8) { left: 80%; }
+    .ruler .mm:nth-of-type(9) { left: 90%; }
+    .ruler .mm:nth-of-type(10) { left: 100%; }
+
+    span.test {
+      position: relative;
+      top: 47px;
+      left: 20px;
+      font-size: 160px;
+    }
+
+    div.grid2 {
+      font-size: 500px;
+      background:
+        conic-gradient(from 90deg at 1px 1px,black 90deg,#333 0)
+        0 0/10px 10px;
+    }
+
+    div.grid {
+      text-align: center;
+      padding: 100px;
+      background:
+        linear-gradient(-90deg, rgba(255,255,255,.05) 1px, transparent 1px),
+        linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+        linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+        linear-gradient(rgba(255,0,0,.04) 1px, transparent 1px),
+        linear-gradient(transparent 3px, black 3px, black 78px, transparent 78px),
+        linear-gradient(-90deg, #aaa 1px, transparent 1px),
+        linear-gradient(-90deg, transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+        linear-gradient(#aaa 1px, transparent 1px),
+        white;
+      background-size:
+        4px 4px,
+        4px 4px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px;
+    }
+  </style>
+</head>
+<body>
+  {{ content }}
+
+  <div class="grid2">test</div>
+  <div class='ruler'>
+    <span class="test">test</span>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    <div class='mm'></div>
+    </div>
+    <div class='cm'></div>
+  </div>
+</body>
+</html>
