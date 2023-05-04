@@ -57,7 +57,7 @@ I’m often asked by friends or startups I advise for a practical reading list t
 [13a]: https://www.amazon.com/dp/B00475AS2E
 [14]: https://www.amazon.com/dp/B003WEAI4E
 [15]: https://www.amazon.com/dp/B003GIPEAE
-[16]: https://www.amazon.com/dp/B003GIPEAE
+[16]: https://www.amazon.com/dp/B00AC26KUU
 [17]: https://www.amazon.com/dp/0679762884
 [18]: https://www.amazon.com/dp/B00DQ845EA
 [19]: https://sive.rs/book/ChecklistManifesto
