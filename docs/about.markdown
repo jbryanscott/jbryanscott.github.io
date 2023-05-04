@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I use this site to share thoughts and public notes.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+[https://www.linkedin.com/in/jbryanscott/](https://www.linkedin.com/in/jbryanscott/)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Investor and advisor in startups like Simpl, Bolt, OpenStore, Branch, and Opendoor. Former exec at Block (SQ) where I founded Square Capital and led anti-fraud and machine learning.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Domain expertise: ecommerce, payments, internal tools, credit, anti-fraud, ops management
