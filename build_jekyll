@@ -15,4 +15,4 @@ set -v # print input lines as they are read
 
 # https://jekyllrb.com/docs/usage/
 cd docs
-bundle exec jekyll serve
+bundle exec jekyll build
