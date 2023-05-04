@@ -31,6 +31,7 @@ github_username:  jbryanscott
 linkedin_username: jbryanscott
 
 # Build settings
+permalink: /:title/
 theme: minima
 plugins:
   - jekyll-feed
