@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My new hire reading list from Square"
+title:  "Hard to Compete"
 date:   2016-01-14 02:58:52 +0000
 categories: startups
 ---
