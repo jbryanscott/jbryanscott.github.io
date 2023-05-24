@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Hard to Compete"
-date:   2016-01-14 02:58:52 +0000
+date:   2015-01-03 19:18:00 +0000
 categories: startups
+published: false
 ---
+
+# What makes it hard to compete with a software business?
 
 Concept of a moat: passive attributes of a business relative to its industry that protect economic returns from the inevitable erosion of competition in free market systems.
 what is a winner take all market? one where V(moat) in a large market share firm >> V(moat) in a small market share firm

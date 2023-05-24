@@ -3,6 +3,7 @@ layout: post
 title:  "My new hire reading list from Square"
 date:   2016-01-14 02:58:52 +0000
 categories: startups
+published: true
 ---
 
 I’m often asked by friends or startups I advise for a practical reading list that provides context, expected skills, and common vocabulary for the new job. Below is the reading list I gave to my new hires at **Square** when I led the risk, data science, and Square Capital teams. For each section the list is deliberately short—because I’m picky about signal-to-noise when requiring others to read. Hope you find this helpful:
