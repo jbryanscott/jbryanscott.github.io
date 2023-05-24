@@ -2,7 +2,7 @@
 layout: post
 title:  "Make your metrics easy to memorize"
 date:   2012-10-29 06:44:00 +0000
-categories: management
+categories: startups
 ---
 
 One of the most important responsibilities of an analytics team inside a startup is to evangelize key performance metrics to decision makers elsewhere in the company. This boils down to:

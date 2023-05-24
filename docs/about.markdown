@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I use this site to share thoughts and public notes.
+I use this site to share thoughts and public notes. I hope it helps you.
 
 [https://www.linkedin.com/in/jbryanscott/](https://www.linkedin.com/in/jbryanscott/)
 
